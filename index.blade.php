@@ -1,6 +1,6 @@
 @extends("theme.$theme.layout")
 @section('titulo')
-    USUARIOS
+    EDITAR USUARIOS
 @endsection
 
 @section("scripts")
@@ -16,7 +16,7 @@
             <div class="card-header">
             <h3 class="card-title"><b>ADMINISTRACION</b> | USUARIOS</h3>
                 <div class="card-tools">
-                    <a href="{{route("crear_usuario")}}" class="btn btn-outline-primary">
+                    <a href="{{route("editar_usuario")}}" class="btn btn-outline-primary">
                         <i class="fa fa-fw fa-plus-circle"></i> Crear Usuario
                     </a>
                 </div>
